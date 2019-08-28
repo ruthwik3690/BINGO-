@@ -1,3 +1,6 @@
+//NOTE: This code is 2 players from same PC/laptop
+
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
