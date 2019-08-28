@@ -1,3 +1,5 @@
+// NOTE: This code is for each player from each source
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
