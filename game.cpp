@@ -61,15 +61,6 @@ for(int i=0;i<25;i++)
 {
 	a[i]=getRandNum[i]+1;
 }
-
-
-
-
-
-
-
-
-
 	int p=0;
 	for(int i=0;i<5;i++)
 	{
@@ -94,8 +85,6 @@ else
 	cout<<"\n"<<endl;
 	for(int i=0;i<5;i++)
 	{
-
-
 		for(int j=0;j<5;j++)
 		{
 		cout<<setw(2)<<player1[i][j]<<" ";		
@@ -109,9 +98,6 @@ else
 //player2 numbers generation starts
 cout<<"Ok,"<<name2<<" Enter 1 if you want to generate numbers randomly"<<endl;
 cout<<"Enter 2 if you want to enter numbers manually"<<endl;
-
-
-
 cin>>choice2;
 if(choice2==1)
 {
@@ -132,15 +118,6 @@ for(int i=0;i<25;i++)
 {
 	b[i]=getRandNum[i]+1;
 }
-
-
-
-
-
-
-
-
-
 	int p=0;
 	for(int i=0;i<5;i++)
 	{
@@ -165,8 +142,6 @@ else
 	cout<<"\n"<<endl;
 	for(int i=0;i<5;i++)
 	{
-
-
 		for(int j=0;j<5;j++)
 		{
 		cout<<setw(2)<<player2[i][j]<<" ";		
@@ -174,8 +149,6 @@ else
 		cout<<endl;
 	}
 //player2 numbers generation ends.
-
-
 	while(cnt1<5 && cnt2<5)
 	{
 		flaga1=1,flaga2=1,flaga3=1,flaga4=1;
@@ -270,10 +243,6 @@ else
 				if(cnt1>=5) {cout<<"Congratulations,"<<name1<<" YOU WIN"; return 0;}
 //player1 no1 ends here
 //player2 no1 starts here
-
-
-
-
 		for(int i=0;i<5;i++)
 		{
 			for(int j=0;j<5;j++)
@@ -361,11 +330,7 @@ fla1=1,fla2=1;
 flb1=1,flb2=1;
 flaga1=1,flaga2=1,flaga3=1,flaga4=1,inda1,inda2;
 flagb1=1,flagb2=1,flagb3=1,flagb4=1,indb1,indb2;
-
-
-
-
-
+		
 cout<<"Enter a number to be striken: ";
 		cin>>no2;
 		cout<<endl;
@@ -454,8 +419,6 @@ cout<<"Enter a number to be striken: ";
 				if(cnt1>=5) {cout<<"Congratulations,"<<name1<<" YOU WIN"; return 0;}
 //player1 no2 ends here
 //player2 no2 starts here
-
-
 
 
 		for(int i=0;i<5;i++)
